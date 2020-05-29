@@ -45,6 +45,7 @@ const People = (props) => {
     }
 
     useEffect(() => {
+        document.title = 'Car Owners'
         fetchPeople('https://immense-ravine-06184.herokuapp.com/people?page=1')
     }, []);
     let list = (

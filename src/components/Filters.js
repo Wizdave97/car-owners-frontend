@@ -44,6 +44,7 @@ const Filters = (props) => {
         }
     }
     useEffect(() => {
+        document.title = 'Filters'
         fetchFilters('https://immense-ravine-06184.herokuapp.com/filters?page=1');
     }, []);
     let list = (
