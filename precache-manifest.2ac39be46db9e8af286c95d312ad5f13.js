@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3f35ade7969ddd76cf7315bad8027ad8",
+    "revision": "a7dc7a44669098d3603b9276f0ee9e3f",
     "url": "/car-owners-frontend/index.html"
   },
   {
-    "revision": "c6c739a89508107021a2",
+    "revision": "962e19f49c957edcc6a2",
     "url": "/car-owners-frontend/static/css/main.63333740.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/car-owners-frontend/static/js/2.ece00548.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c6c739a89508107021a2",
-    "url": "/car-owners-frontend/static/js/main.ff2b9151.chunk.js"
+    "revision": "962e19f49c957edcc6a2",
+    "url": "/car-owners-frontend/static/js/main.cb38bba0.chunk.js"
   },
   {
     "revision": "d5b0a250cbb56770fc8c",
