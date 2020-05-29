@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/car-owners-frontend/static/css/main.63333740.chunk.css",
-    "main.js": "/car-owners-frontend/static/js/main.ae6d86f1.chunk.js",
-    "main.js.map": "/car-owners-frontend/static/js/main.ae6d86f1.chunk.js.map",
+    "main.js": "/car-owners-frontend/static/js/main.acca9077.chunk.js",
+    "main.js.map": "/car-owners-frontend/static/js/main.acca9077.chunk.js.map",
     "runtime-main.js": "/car-owners-frontend/static/js/runtime-main.62cb73ed.js",
     "runtime-main.js.map": "/car-owners-frontend/static/js/runtime-main.62cb73ed.js.map",
     "static/js/2.ece00548.chunk.js": "/car-owners-frontend/static/js/2.ece00548.chunk.js",
     "static/js/2.ece00548.chunk.js.map": "/car-owners-frontend/static/js/2.ece00548.chunk.js.map",
     "index.html": "/car-owners-frontend/index.html",
-    "precache-manifest.d5949793621862bf0cd5d0da02a39e5d.js": "/car-owners-frontend/precache-manifest.d5949793621862bf0cd5d0da02a39e5d.js",
+    "precache-manifest.37791e3ed65b1701763cbf1a8a80ef06.js": "/car-owners-frontend/precache-manifest.37791e3ed65b1701763cbf1a8a80ef06.js",
     "service-worker.js": "/car-owners-frontend/service-worker.js",
     "static/css/main.63333740.chunk.css.map": "/car-owners-frontend/static/css/main.63333740.chunk.css.map",
     "static/js/2.ece00548.chunk.js.LICENSE.txt": "/car-owners-frontend/static/js/2.ece00548.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.62cb73ed.js",
     "static/js/2.ece00548.chunk.js",
     "static/css/main.63333740.chunk.css",
-    "static/js/main.ae6d86f1.chunk.js"
+    "static/js/main.acca9077.chunk.js"
   ]
 }
