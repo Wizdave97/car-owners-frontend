@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/car-owners-frontend/static/css/main.63333740.chunk.css",
-    "main.js": "/car-owners-frontend/static/js/main.9d66e9de.chunk.js",
-    "main.js.map": "/car-owners-frontend/static/js/main.9d66e9de.chunk.js.map",
+    "main.js": "/car-owners-frontend/static/js/main.ff2b9151.chunk.js",
+    "main.js.map": "/car-owners-frontend/static/js/main.ff2b9151.chunk.js.map",
     "runtime-main.js": "/car-owners-frontend/static/js/runtime-main.62cb73ed.js",
     "runtime-main.js.map": "/car-owners-frontend/static/js/runtime-main.62cb73ed.js.map",
-    "static/js/2.11efd427.chunk.js": "/car-owners-frontend/static/js/2.11efd427.chunk.js",
-    "static/js/2.11efd427.chunk.js.map": "/car-owners-frontend/static/js/2.11efd427.chunk.js.map",
+    "static/js/2.ece00548.chunk.js": "/car-owners-frontend/static/js/2.ece00548.chunk.js",
+    "static/js/2.ece00548.chunk.js.map": "/car-owners-frontend/static/js/2.ece00548.chunk.js.map",
     "index.html": "/car-owners-frontend/index.html",
-    "precache-manifest.cdbc05aec74c50704cae3ca12ea079c6.js": "/car-owners-frontend/precache-manifest.cdbc05aec74c50704cae3ca12ea079c6.js",
+    "precache-manifest.fce8d19740f5ad2f627f4fc90b1d861c.js": "/car-owners-frontend/precache-manifest.fce8d19740f5ad2f627f4fc90b1d861c.js",
     "service-worker.js": "/car-owners-frontend/service-worker.js",
     "static/css/main.63333740.chunk.css.map": "/car-owners-frontend/static/css/main.63333740.chunk.css.map",
-    "static/js/2.11efd427.chunk.js.LICENSE.txt": "/car-owners-frontend/static/js/2.11efd427.chunk.js.LICENSE.txt",
+    "static/js/2.ece00548.chunk.js.LICENSE.txt": "/car-owners-frontend/static/js/2.ece00548.chunk.js.LICENSE.txt",
     "static/media/car.jpg": "/car-owners-frontend/static/media/car.4ddb474f.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.62cb73ed.js",
-    "static/js/2.11efd427.chunk.js",
+    "static/js/2.ece00548.chunk.js",
     "static/css/main.63333740.chunk.css",
-    "static/js/main.9d66e9de.chunk.js"
+    "static/js/main.ff2b9151.chunk.js"
   ]
 }
