@@ -32,18 +32,18 @@ const Person = (props) => {
                         </li>
                     </ul>
                 </div>
-                <div className="w-full p-0 my-2 flex flex-no-wrap items-end">
-                    <ul className="h-12 p-0 list-none">
+                <div className="w-full p-0 my-2 flex flex-wrap md:flex-no-wrap items-start">
+                    <ul className="p-0 list-none">
                         <li className="px-2 py-0 text-md text-gray-600">Country</li>
                         <li className="px-2 py-0 text-md text-gray-900">{props.country}</li>
                     </ul>
-                    <div class="w-px h-12 mx-2 bg-transparent"></div>
-                    <ul className="h-12 p-0 list-none">
+                    <div class="w-px h-full mx-2 bg-transparent"></div>
+                    <ul className="p-0 list-none">
                         <li className="px-2 py-0 text-md text-gray-600">Gender</li>
                         <li className="px-2 py-0 text-md text-gray-900 capitalize">{props.gender}</li>
                     </ul>
-                    <div class="w-px h-12 mx-2 bg-transparent"></div>
-                    <ul className="h-12 p-0 list-none">
+                    <div class="w-px h-full mx-2 bg-transparent"></div>
+                    <ul className="p-0 list-none">
                         <li className="px-2 py-0 text-md text-gray-600">Job</li>
                         <li className="px-2 py-0 text-md text-gray-900">{props.jobTitle}</li>
                     </ul>
