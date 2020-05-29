@@ -3,7 +3,7 @@ import FilterImage from '../assets/filter.png';
 import ListItem from './ListItem';
 
 const Filters = (props) => {
-    const [pages, setPages] = useState({nextPage: 'http://localhost:3000/filters?page=1',
+    const [pages, setPages] = useState({nextPage: null,
                                 prevPage:null})
     const [data, setData] = useState(null);
     const [fetchProgress, setFetchProgress] = useState({fetchStart: false, 
@@ -44,7 +44,7 @@ const Filters = (props) => {
         }
     }
     useEffect(() => {
-        fetchFilters(pages.nextPage)
+        fetchFilters('http://localhost:3000/filters?page=1');
     }, []);
     let list = (
         <div className='w-full flex flex-wrap my-2 p-2 justify-center'>
@@ -56,6 +56,11 @@ const Filters = (props) => {
         if (data && data.length > 0)
         {
             list = data.map((obj) => {
+                for (let key in obj)
+                {
+                    if (obj[key]) continue;
+                    else delete obj[key];
+                }
                 return <ListItem 
                 key = {String(obj.id)}
                 selectFilter = {selectFilter(obj)}
@@ -93,6 +98,12 @@ const Filters = (props) => {
             </div>
             <div className='w-full flex flex-wrap p-4'>
                 {list}
+            </div>
+            <div className='w-full flex flex-wrap p-4 justify-between'>
+                <button onClick={() => fetchFilters(pages.prevPage)} 
+                className={`bg-indigo-600 rounded text-center p-2 text-2xl text-gray-100 mx-2 ${!pages.prevPage ? 'opacity-50 cursor-not-allowed' : ''}`}>Previous Page</button>
+                <button onClick={() => fetchFilters(pages.nextPage)} 
+                className={`bg-indigo-600 rounded text-center p-2 text-2xl text-gray-100 mx-2 ${!pages.nextPage ? 'opacity-50 cursor-not-allowed' : ''}`} >Next Page</button>
             </div>
         </div>
     )
