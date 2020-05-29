@@ -44,7 +44,7 @@ const Filters = (props) => {
         }
     }
     useEffect(() => {
-        fetchFilters('http://localhost:3000/filters?page=1');
+        fetchFilters('https://immense-ravine-06184.herokuapp.com/filters?page=1');
     }, []);
     let list = (
         <div className='w-full flex flex-wrap my-2 p-2 justify-center'>

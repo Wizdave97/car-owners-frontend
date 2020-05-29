@@ -45,7 +45,7 @@ const People = (props) => {
     }
 
     useEffect(() => {
-        fetchPeople('http://localhost:3000/people?page=1')
+        fetchPeople('https://immense-ravine-06184.herokuapp.com/people?page=1')
     }, []);
     let list = (
         <div className='w-full flex flex-wrap my-2 p-2 justify-center'>
