@@ -7,7 +7,7 @@ const Person = (props) => {
     return (
      
         <div className='w-full p-2 my-4 flex flex-wrap md:flex-no-wrap bg-white rounded-lg shadow-inner overflow-hidden items-center'>
-            <div className='w-full md:w-64 bg-transparent my-2 px-2 py-5'>
+            <div className='w-full md:w-3/12 bg-transparent my-2 px-2 py-5'>
                 <div className='w-full rounded-md shadow-xl overflow-hidden'>
                     <img className='w-full' src={carImage} alt='Car' />
                 </div>

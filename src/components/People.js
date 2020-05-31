@@ -1,9 +1,16 @@
 import React, {useState, useEffect} from 'react';
 import Person from './Person';
-import { useLocation } from 'react-router-dom';
+import BackIcon from '../assets/back.svg';
+import { useLocation,useHistory } from 'react-router-dom';
 
 const People = (props) => {
-    const { filter } = useLocation().state;
+    const location = useLocation();
+    const { push } = useHistory();
+    let filter = {};
+    if (location.state)
+    {
+        filter = location.state.filter;
+    }
     const [pages, setPages] = useState({nextPage: null,
                                 prevPage:null})
     const [data, setData] = useState(null);
@@ -90,9 +97,15 @@ const People = (props) => {
         )
     }
     return (
-        <div className='w-full p-4'>
+        <div className='w-full mx-auto p-4'>
             <div className='w-full flex flex-no-wrap justify-start items-center mb-4'>
-                <h1 className='text-gray-900 text-2xl mx-2 font-extrabold'>Car Owners</h1>
+                <div role="link" className='mx-2 flex flex-no-wrap cursor-pointer items-center' onClick={()=> push('/')} >
+                    <div className='w-8 h-8 p-0 mx-2'>
+                        <img className='w-full' src={BackIcon} alt='go home'/>
+                    </div>
+                    <h1 className='text-gray-900 text-md md:text-2xl mx-auto font-normal'>Filters</h1>
+                </div>
+                <h1 className='w-full text-center text-gray-900 text-lg md:text-2xl font-extrabold'>Car Owners</h1>
             </div>
             <div className='w-full flex flex-wrap p-4'>
                 {list}
